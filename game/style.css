@@ -1,0 +1,30 @@
+/* Midnight Noodle Cart — page chrome. The game itself is canvas. */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #123f3f;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+canvas {
+  width: min(1280px, 96vw);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background: #fff6e5;
+}
+.hint {
+  color: #bfe3d8;
+  font-size: 14px;
+  margin: 12px 0 0;
+  text-align: center;
+}
